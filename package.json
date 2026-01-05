@@ -1,0 +1,39 @@
+{
+  "name": "cruciverbalizer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.2",
+    "@jaredreisinger/react-crossword": "^5.2.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "nlcst-to-string": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "retext": "^9.0.0",
+    "retext-keywords": "^8.0.2",
+    "retext-pos": "^5.0.0",
+    "tailwindcss": "^4.1.18",
+    "unified": "^11.0.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^24.10.1",
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.4",
+    "vite": "^7.2.4"
+  }
+}
